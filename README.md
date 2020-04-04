@@ -1,5 +1,5 @@
 # Owner README.md
-## Project Description
+### Project Description
 Challenge accepted from Frontend Mentor at frontendmentor.io. Using React.js, this project demonstrates use of props, state, flexbox and device compatibility. 
 
 # Frontend Mentor README.md
