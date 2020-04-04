@@ -1,0 +1,16 @@
+.header {
+  padding-top: 1em;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+#subtitle {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+#slogan {
+  font-size: 17px;
+  margin-bottom: 2em;
+}
