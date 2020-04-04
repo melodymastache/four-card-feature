@@ -1,5 +1,5 @@
 import React from 'react';
-import './Main.css';
+import '../App.css';
 import Card from './Card';
 import supervisorSvg from '../images/icon-supervisor.svg';
 import builderSvg from '../images/icon-team-builder.svg';

@@ -8,3 +8,87 @@
   max-width: 1440px; /* desktop max width */
   color: rgb(76, 78, 97);
 }
+
+/* HEADER COMPONENT */
+.header {
+  padding-top: 1em;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+#subtitle {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+#slogan {
+  font-size: 17px;
+  margin-bottom: 2em;
+}
+
+/* CARD COMPONENT */
+.cards {
+  padding: 10px 30px;
+  max-width: 300px;
+}
+
+img {
+  display: block;
+  margin: 40px 0px 0px 220px;
+}
+
+/* MAIN COMPONENT */
+.mainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.outerCards {
+  transform: translateY(50%);
+}
+
+/* for mobile */ 
+@media screen and (max-width: 1000px) {
+  .outerCards {
+    transform: translateY(0);
+  }
+}
+
+.cardGrid {
+  display: flex;
+  justify-content: flex-start;
+  /* dimensions of cards */
+  width: 350px;
+  height: 250px;
+  /* compatibility for drop shadow between browsers */
+  -webkit-box-shadow: -2px 19px 18px 6px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: -2px 19px 18px 6px rgba(0, 0, 0, 0.06);
+  box-shadow: -2px 19px 18px 6px rgba(0, 0, 0, 0.06);
+  margin: 15px; /* space between boxes */
+  border-radius: 5px; /* rounded corners */
+}
+
+#supervisorCard {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+#builderCard {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+#karmaCard {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+#calculatorCard {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+/* FOOTER COMPONENT */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
