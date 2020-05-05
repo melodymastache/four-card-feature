@@ -21,11 +21,11 @@ class Main extends React.Component {
                 <div className="cardGrid" id="builderCard">
                     <Card imgSrc={builderIcon} title="Team Builder" text="Scans our talent network to create the optimal team for your project" />
                 </div>
-                <div className="cardGrid outerCards" id="karmaCard">
-                    <Card imgSrc={karmaIcon} title="Karma" text="Regularly evaluates our talent to ensure quality" />
-                </div>
                 <div className="cardGrid" id="calculatorCard">
                     <Card imgSrc={calculatorIcon} title="Calculator" text="Uses data from past projects to provide better delivery estimates" />
+                </div>
+                <div className="cardGrid outerCards" id="karmaCard">
+                    <Card imgSrc={karmaIcon} title="Karma" text="Regularly evaluates our talent to ensure quality" />
                 </div>
             </div>
         );
